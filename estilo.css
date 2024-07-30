@@ -121,7 +121,7 @@ margin-top: 32px;
     width: 50%;
  }
  .forte{
-    background-color: rgb(152, 222, 48);
+    background-color: rgb(11, 249, 27);
     width: 100%;
  }
  .parametro-senha-texto{
@@ -129,7 +129,7 @@ margin-top: 32px;
     justify-content: space-between
  }
 
- 
+
 @media screen and (min-width:768px){
     .parametro-coluna_senha{
         flex-direction: row;
