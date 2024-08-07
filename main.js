@@ -33,4 +33,6 @@ numeroSenha.textContent = tamanhoSenha
     function geraSenha(){
         let senha = " "
     for(let i = 0;i < tamanhoSenha; i++)
+         let numeroAleatorio = Math.random()
+
     }
