@@ -36,5 +36,7 @@ numeroSenha.textContent = tamanhoSenha
         let numeroAleatorio = Math.random()*maiuscula.length
         numeroAleatorio = Math.floor(numeroAleatorio)
         console.log(numeroAleatorio)
+        console.log(senha)
     }
+    campoSenha.value = senha
     }
