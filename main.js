@@ -21,18 +21,21 @@ let simbolos = "!?@%&*"
 geraSenha()
 
 function diminuirTamanho() {
-    if(tamanhoSenha > 1)
+    if(tamanhoSenha > 1){
     tamanhoSenha = tamanhoSenha - 1
     numeroSenha.textContent = tamanhoSenha
-    
+    }
+    geraSenha()
 }
+
 
 function aumentarTamanho(){
-    if(aumentarTamanho < 20)
+    if(aumentarTamanho < 20){
     tamanhoSenha= tamanhoSenha + 1
     numeroSenha.textContent = tamanhoSenha
-
-}
+    }
+    geraSenha()
+    }
 
 function geraSenha(){
     let senha = " "
