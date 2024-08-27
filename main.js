@@ -34,8 +34,9 @@ function aumentarTamanho(){
     tamanhoSenha= tamanhoSenha + 1
     numeroSenha.textContent = tamanhoSenha
     }
+    console.log(tamanhoSenha)
     geraSenha()
-    
+
     }
 
 function geraSenha(){
